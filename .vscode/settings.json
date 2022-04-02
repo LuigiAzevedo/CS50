@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.html": "jinja-html",
+        "string.h": "c",
+        "ctype.h": "c",
+        "random": "c"
+    }
+}
