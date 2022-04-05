@@ -1,0 +1,12 @@
+sort1 uses: Bubble
+
+How do you know?: Bubble is faster when running the sorted list because of the Ω(n) compared to the selection sort that have  Ω(n²),
+but slower when running the reversed or random list compared to merge
+
+sort2 uses: Merge
+
+How do you know?: Merge has a similar running timing in every size and order tested, it's also faster in bigger and random/reversed lists because it's O(n log n)
+
+sort3 uses: Selection
+
+How do you know?: Selection has a similar time in reversed, sorted and random, but is generally slower than merge in every situation.
