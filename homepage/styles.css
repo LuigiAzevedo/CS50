@@ -1,0 +1,30 @@
+.red
+{
+    color: red;
+}
+
+.green
+{
+    color: green;
+}
+
+#beginner-button
+{
+    background-color: green;
+    border-color: green;
+    border-radius: 0.4 rem;
+}
+
+p.lead
+{
+    font-size: 1.50rem;
+}
+#beginner-button::before
+{
+    content: "→";
+}
+
+p::first-letter
+{
+    text-transform: uppercase;
+}
